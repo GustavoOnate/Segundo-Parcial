@@ -27,14 +27,12 @@
   display: flex;
   justify-content: space-between;
   padding-left: 95px;
-  padding-right: 95px;
- background-color:#080808;  
+  padding-right: 95px; 
 }
 
 .menu ul {
   display: flex;
   gap: 35px;
-background-color: #080808;
 }
 
 
