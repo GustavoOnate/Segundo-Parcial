@@ -21,7 +21,7 @@
 .menu {
   max-width: 1100px;
   height: 70px;
-  background: #080808;
+  background-color:black;
   margin: auto;
   border-radius: 0 0 8px 8px;
   display: flex;
@@ -38,7 +38,7 @@
 
 .menu ul a {
   font-size: 14px;
-  color: #080808;
+  color: #fff;
   text-decoration: none;
   display: block;
   padding: 25px 20px;
