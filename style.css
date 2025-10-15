@@ -107,3 +107,20 @@ background-color: #080808;
   text-decoration: none;
   letter-spacing: 3px;
 }
+
+.Testimonials{
+  background-color: #080808;
+  text-align: center;
+}
+
+.Testimonials_Header h2{
+ color: #fff;
+  font-family: var(--font-primary);
+
+}
+
+.Testimonials_Header p{
+ color: #9C9C9C;
+ font-size: 14px;
+  font-family: var(--font-secondary);
+}
