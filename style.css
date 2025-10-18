@@ -116,6 +116,7 @@ background-color: #080808;
 .Testimonials_Header h2{
  color: #fff;
   font-family: var(--font-primary);
+margin-bottom: 20px;
 
 }
 
@@ -123,4 +124,34 @@ background-color: #080808;
  color: #9C9C9C;
  font-size: 14px;
   font-family: var(--font-secondary);
+  margin-bottom: 20px;
 }
+
+
+
+.Testimonies_quote_mark h2{
+  font-size: 100px;
+}
+
+.Testimonies_description p{
+  margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+font-family: var(--font-primary)
+}
+
+.Testimonies_image image{
+  display: flex;
+}
+
+
+.Testimonies_image span{
+font-size: 18px;
+color: #fff;
+font-family: var(--font-primary);
+}
+
+.Testimonies {
+  display: flex;
+}
+
