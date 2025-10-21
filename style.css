@@ -129,29 +129,21 @@ margin-bottom: 20px;
 
 
 
-.Testimonies_quote_mark h2{
-  font-size: 100px;
+.Testimonies_grid{
+display: grid;
+grid-template-columns: repeat( 1fr);
+gap: 25px;
 }
 
-.Testimonies_description p{
-  margin-bottom: 20px;
-  font-size: 14px;
-  letter-spacing: 1px;
-font-family: var(--font-primary)
+.Testimonies_Card{
+background-color: transparent;
+border: 1px solid #9c9c9c;
+border-radius: 6px;
+padding: 30px;
+max-width: 445px;
+max-height: 212px;
+
 }
 
-.Testimonies_image image{
-  display: flex;
-}
 
-
-.Testimonies_image span{
-font-size: 18px;
-color: #fff;
-font-family: var(--font-primary);
-}
-
-.Testimonies {
-  display: flex;
-}
 
