@@ -30,10 +30,14 @@
   padding-right: 95px;
 }
 
+.get_in_touch{
+    background: #080808;
+    height: 672px;
+}
+
 .menu ul {
   display: flex;
   gap: 35px;
-/*background-color: #080808;*/
 }
 
 
@@ -72,6 +76,12 @@
   margin: auto;
 }
 
+.madewith{
+    background: #1b1b1b;
+    width: 1280px;
+    height: 70px;
+}
+
 .principal {
   display: flex;
   align-items: center;
@@ -79,16 +89,40 @@
   margin-top: 80px;
 }
 
+.get_in_touch{
+    display: block;
+    align-items: center;
+    margin-top: 80px;
+}
+
 .principal_description {
   padding-right: 46px;
 }
 
-.principal_description h1 {
+.principal_description h1{
   font-weight: 900;
   font-size: 44px;
   color: #fff;
   font-family: var(--font-primary);
-  margin-bottom: 20px;
+  padding-top: 80px;
+}
+
+.get_in_touch_description h1{
+    font-weight: 900;
+    font-size: 34px;
+    color: #fff;
+    font-family: var(--font-primary);
+    margin-top: 400px;
+}
+
+.get_in_touch_description p{
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    line-height: 1.71;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 0.6px;
 }
 
 .principal_description p {
@@ -98,10 +132,42 @@
   line-height: 1.71;
   margin-bottom: 30px;
   letter-spacing: 0.6px;
-
 }
 
-.principal_description a {
+#formContainer {
+  color: #9C9C9C;
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  line-height: 1.71;
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+}
+
+#formContainer label{
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-family: var(--font-secondary);
+    line-height: 1.71;
+    margin-bottom: 5px;
+    letter-spacing: 0.6px;
+}
+
+#formContainer input,
+#formContainer textarea {
+  width: 350px;
+  height: 61px;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: var(--font-secondary);
+}
+
+.principal_description a, 
+.get_in_touch_description a {
   padding: 21px 64px;
   background: #3F8E00;
   border-radius: 4px;
@@ -244,4 +310,3 @@ cases_studies {
   .case_study_green .case_study_button {
     background: #2AB090;
   }
-  
