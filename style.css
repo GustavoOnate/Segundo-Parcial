@@ -99,6 +99,7 @@
 
 .get_in_touch{
     display: block;
+    justify-content: center;
     align-items: center;
     margin-top: 80px;
 }
@@ -107,7 +108,7 @@
   padding-right: 46px;
 }
 
-.principal_description h1{
+.principal_description h2{
   font-weight: 900;
   font-size: 44px;
   color: #fff;
@@ -115,12 +116,13 @@
   padding-top: 80px;
 }
 
-.get_in_touch_description h1{
+.get_in_touch_description h2{
     font-weight: 900;
     font-size: 34px;
     color: #fff;
     font-family: var(--font-primary);
-    margin-top: 400px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .get_in_touch_description p{
@@ -128,9 +130,10 @@
     font-size: 14px;
     font-family: var(--font-secondary);
     line-height: 1.71;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 40px;
     letter-spacing: 0.6px;
+    text-align: center;
 }
 
 .principal_description p {
@@ -142,16 +145,22 @@
   letter-spacing: 0.6px;
 }
 
-#formContainer {
+#formContainer, 
+#formContainer_message{
   color: #9C9C9C;
   font-size: 14px;
   font-family: var(--font-secondary);
   line-height: 1.71;
   margin-bottom: 30px;
   letter-spacing: 0.6px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-#formContainer label{
+#formContainer label,
+#formContainer_message label{
     display: block;
     color: white;
     font-size: 12px;
@@ -164,9 +173,9 @@
 #formContainer input,
 #formContainer textarea {
   width: 350px;
-  height: 61px;
+  height: 40px;
   padding: 10px;
-  margin-top: 8px;
+  margin-top: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -174,10 +183,29 @@
   font-family: var(--font-secondary);
 }
 
-.principal_description a, 
-.get_in_touch_description a {
+#formContainer_message input,
+#formContainer_message textarea {
+  width: 350px;
+  height: 120px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: var(--font-secondary);
+  text-align:initial;
+}
+
+.principal_description a {
   padding: 21px 64px;
   background: #3F8E00;
+}
+
+.get_in_touch a{
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .cases_studies_header h2,
