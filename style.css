@@ -109,6 +109,14 @@
   padding-right: 46px;
 }
 
+.principal_description h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #fff;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+}
+
 .principal_description h2{
   font-weight: 900;
   font-size: 44px;
@@ -181,7 +189,9 @@
 }
 
 #formContainer input,
-#formContainer textarea {
+#formContainer textarea,
+#formContainer_message input,
+#formContainer_message textarea {
   width: 350px;
   height: 40px;
   padding: 5px;
@@ -195,21 +205,19 @@
 
 #formContainer_message input,
 #formContainer_message textarea {
-  width: 350px;
   height: 120px;
-  padding: 5px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family: var(--font-secondary);
-  text-align:initial;
 }
 
 .principal_description a {
   padding: 21px 64px;
   background: #3F8E00;
+  border-radius: 4px;
+  color: #fff;
+  font-family: var(--font-primary);
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 
 .get_in_touch a{
