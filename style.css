@@ -486,29 +486,6 @@ margin-bottom: 62px;
 }
 
 
-
-:root {
-  --font-primary: 'Raleway', sans-serif;
-  --font-secondary: 'IBM Plex Mono', monospace;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #fff;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px 20px;
-}
-
 .recent-work {
     max-width: 1200px;
     text-align: center;
