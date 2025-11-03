@@ -691,15 +691,6 @@ cases_studies {
     line-height: 24px;
   }
   
-  .case_study_orange .case_study_category {
-    background: #FFF6E9;
-    color: #FFA217;
-  }
-  
-  .case_study_orange .case_study_button {
-    background: #FFA217;
-  }
-  
   .case_study_blue .case_study_category {
     background: #D0E6FF;
     color: #000AFF;
