@@ -44,6 +44,7 @@
   padding: 25px 20px;
   transition: all 0.5s ease;
   font-family: var(--font-secondary)
+}
 body {
     background-color: #fff;
     color: #333;
@@ -228,7 +229,7 @@ body {
   margin: auto;
 }
 
-.principal {
+.principal 
 .case_study {
   display: flex;
   margin-bottom: 80px;
