@@ -319,6 +319,10 @@ margin-right: 180px;
 margin-bottom: 62px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
 .case_study_green .case_study_category {
   background: #E0FFF8;
   color: #2AB090;
@@ -327,3 +331,4 @@ margin-bottom: 62px;
 .case_study_green .case_study_button {
   background: #2AB090;
 }
+
