@@ -484,3 +484,74 @@ margin-bottom: 62px;
 .case_study_green .case_study_button {
   background: #2AB090;
 }
+
+@media (min-width: 1920px) {
+  .hero {
+    height: 900px; 
+  }
+  .menu {
+    max-width: 1600px; 
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .menu ul a {
+    font-size: 18px;
+    padding: 30px 25px;
+  }
+.principal {
+    width: 1400px; 
+  }
+  .principal_description h1 {
+    font-size: 60px; 
+  }
+   .principal_description p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .cases_studies_header h2 {
+    font-size: 48px;
+  }
+  .cases_studies_header p {
+    font-size: 16px;
+  }
+  .testimonials-grid {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px;
+  }
+  .testimonial-card {
+    padding: 50px;
+  }
+  .testimonial-card::before {
+    font-size: 120px; 
+  }
+  .testimonial-text {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  .case_study {
+    gap: 40px;
+  }
+  .case_study_description h2 {
+    font-size: 32px;
+  }
+  .case_study_description p {
+    font-size: 16px;
+  }
+    .case_study_button {
+    width: 220px;
+    height: 45px;
+  }
+  .alliances {
+    width: 1400px;
+  }
+  .alliances_logos a {
+    width: 200px;
+    height: 80px;
+  }
+  .column-left,
+  .column-right {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
