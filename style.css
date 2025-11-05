@@ -167,9 +167,8 @@
 .Testimonials_Header h2{
  color: #fff;
   font-family: var(--font-primary);
-margin-bottom: 20px;
-font-size: 32px;
-
+ margin-bottom: 20px;
+ font-size: 32px;
 }
 
 .Testimonials_Header p{
@@ -342,7 +341,7 @@ font-size: 32px;
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
-  }
+}
 
 .column-left,
 .column-right {
@@ -718,6 +717,104 @@ margin-bottom: 62px;
 .case_study_blue .case_study_button {
   background: #000AFF;
 }
+
+.case_study_green .case_study_category {
+  background: #E0FFF8;
+  color: #2AB090;
+}
+
+.case_study_green .case_study_button {
+  background: #2AB090;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .hero {
+    height: auto;
+  }
+
+  .alliances,
+  .principal,
+  .cases_studies_header,
+  .case_study {
+    width: 100%;
+    align-content: center;
+  }
+
+  .menu {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+    height: auto;
+    display: block;
+  }
+
+  .menu ul {
+    gap: 10px;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu .icons {
+    justify-content: center;
+  }
+
+  .principal {
+    display: block;
+  }
+
+  .case_study {
+    display: block;
+  }
+
+  .case_study_image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .alliances_logos {
+    flex-direction: column;
+  }
+
+  .principal {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .principal_description {
+    margin: 20px;
+  }
+
+  .principal_description h1 {
+    font-size: 40px;
+  }
+
+  .principal_description a {
+    margin: 20px auto;
+  }
+
+  .alliances_logos a {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .cases_studies_header br {
+    display: none;
+  }
+
+  .case_study_image {
+    margin-top: 20px;
+  }
+
+  .alliances_header{
+    margin-left: 20px;
+  }
+}
+
 
 .recent-work {
     max-width: 1200px;
