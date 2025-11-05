@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --font-primary: 'Raleway', sans-serif;
-  --font-secondary: 'IBM Plex Mono', monospace;
+    --font-primary: 'Raleway', sans-serif;
+    --font-secondary: 'IBM Plex Mono', monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #080808;
+    height: 700px;
+    width: 100%;
 }
 
 * {
@@ -32,6 +44,7 @@
 .menu ul {
   display: flex;
   gap: 35px;
+  list-style-type: none;
 }
 
 .menu ul a {
@@ -356,6 +369,207 @@ margin-bottom: 62px;
   margin-bottom: 60px;
 }
 
+.menu {
+  max-width: 1100px;
+  height: 70px;
+  background: #080808;
+  margin: auto;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.get_in_touch{
+    background: #080808;
+    height: 672px;
+    width: auto;
+}
+
+.menu ul {
+  display: flex;
+  gap: 35px;
+}
+
+
+.menu ul a {
+  font-size: 14px;
+  color: #9c9c9c;
+  text-decoration: none;
+  display: block;
+  padding: 25px 20px;
+  transition: all 0.5s ease;
+  font-family: var(--font-secondary)
+}
+
+.menu ul a:hover {
+  color: #080808;
+  background: #9c9c9c;
+}
+
+.menu .icons {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  transition: all 0.5s ease;
+}
+
+.menu .icons a:hover {
+  transform: scale(1.5);
+}
+
+.alliances,
+.cases_studies_header,
+.case_study,
+.principal {
+  width: 888px;
+  margin: auto;
+}
+
+.made_with{
+    background: #1b1b1b;
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+.principal {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.get_in_touch{
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.principal_description {
+  padding-right: 46px;
+}
+
+.principal_description h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #fff;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+}
+
+.principal_description h2{
+  font-weight: 900;
+  font-size: 44px;
+  color: #fff;
+  font-family: var(--font-primary);
+  padding-top: 80px;
+}
+
+.get_in_touch_description h2{
+    font-weight: 900;
+    font-size: 34px;
+    color: #fff;
+    font-family: var(--font-primary);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.get_in_touch_description p {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    line-height: 1.71;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.made_with  p {
+  display: block;
+  color: #9C9C9C;
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  margin: auto;
+}
+
+
+.principal_description p {
+  color: #9C9C9C;
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  line-height: 1.71;
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+}
+
+#formContainer, 
+#formContainer_message{
+  color: #9C9C9C;
+  font-size: 14px;
+  font-family: var(--font-secondary);
+  line-height: 1.71;
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#formContainer label,
+#formContainer_message label{
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-family: var(--font-secondary);
+    line-height: 1.71;
+    margin-bottom: 5px;
+    letter-spacing: 0.6px;
+}
+
+#formContainer input,
+#formContainer textarea,
+#formContainer_message input,
+#formContainer_message textarea {
+  width: 350px;
+  height: 40px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: var(--font-secondary);
+}
+
+#formContainer_message input,
+#formContainer_message textarea {
+  height: 120px;
+}
+
+.principal_description a {
+  padding: 21px 64px;
+  background: #3F8E00;
+  border-radius: 4px;
+  color: #fff;
+  font-family: var(--font-primary);
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.get_in_touch a{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .cases_studies_header h2,
 .case_study_description h2 {
   font-size: 34px;
@@ -448,9 +662,43 @@ margin-bottom: 62px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-weight: 700;
-  font-family: var(--font-secondary);
+  letter-spacing: 3px;
 }
+
+.cases_studies {
+    padding-top: 129px;
+  }
+  
+  .cases_studies_header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .cases_studies_header h2,
+  .case_study_description h2 {
+    font-size: 34px;
+    font-family: var(--font-primary);
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #080808;
+  }
+  
+  .cases_studies_header p,
+  .case_study_description p {
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: #9C9C9C;
+    line-height: 24px;
+  }
+  
+  .case_study_green .case_study_category {
+    background: #E0FFF8;
+    color: #2AB090;
+  }
+  
+  .case_study_green .case_study_button {
+    background: #2AB090;
+  }
 
 .case_study_orange .case_study_category {
   background: #FFF6E9;
@@ -571,12 +819,15 @@ margin-bottom: 62px;
 .recent-work {
     max-width: 1200px;
     text-align: center;
+    margin: auto;
+    padding-top: 50px;
 }
 
 .text-content h2 {
-    font-size: 2.2rem;
+    font-size: 34px;
     font-weight: 700;
     margin-bottom: 10px;
+    font-family: var(--font-primary);
 }
 
 .text-content .subtitle {
@@ -591,6 +842,7 @@ margin-bottom: 62px;
     max-width: 600px;
     margin: 0 auto 40px;
     line-height: 1.6;
+    font-family: var(--font-secondary);
 }
 
 .work-container {
@@ -615,18 +867,20 @@ margin-bottom: 62px;
 }
 
 .work-card h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 10px;
     padding: 0 10px;
+    font-family: var(--font-primary);
 }
 
 .work-card p {
-    font-size: 0.95rem;
+    font-size: 14px;
     color: #888;
     line-height: 1.6;
     margin-bottom: 20px;
     padding: 0 10px;
+    font-family: var(--font-secondary);
 }
 
 .btn {
@@ -639,7 +893,7 @@ margin-bottom: 62px;
     margin-left: 10px;
     display: inline-flex;
     align-items: center;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
 }
 
