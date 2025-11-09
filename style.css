@@ -930,3 +930,6 @@ margin-bottom: 62px;
     position: absolute;
     right: -50px;
 }
+
+@media only screen and (min-width: 1024px) {
+}
