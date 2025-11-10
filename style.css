@@ -736,7 +736,8 @@ margin-bottom: 62px;
   .alliances,
   .principal,
   .cases_studies_header,
-  .case_study {
+  .case_study ,
+  .recent-work {
     width: 100%;
     align-content: center;
     overflow: hidden;
