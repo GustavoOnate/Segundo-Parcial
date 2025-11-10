@@ -739,6 +739,7 @@ margin-bottom: 62px;
   .case_study {
     width: 100%;
     align-content: center;
+    overflow: hidden;
   }
 
   .menu {
@@ -786,12 +787,18 @@ margin-bottom: 62px;
     margin: 20px;
   }
 
+  .principal_description p{
+    margin-left: 40px;
+  }
+
   .principal_description h1 {
     font-size: 40px;
+    margin-left: 40px;
   }
 
   .principal_description a {
     margin: 20px auto;
+    margin-left: 200px;
   }
 
   .alliances_logos a {
