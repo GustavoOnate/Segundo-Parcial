@@ -55,9 +55,9 @@
   padding: 25px 20px;
   transition: all 0.5s ease;
   font-family: var(--font-secondary)
-  }
+}
 
-  body {
+.body {
     background-color: #fff;
     color: #333;
     display: flex;
@@ -736,9 +736,11 @@ margin-bottom: 62px;
   .alliances,
   .principal,
   .cases_studies_header,
-  .case_study {
+  .case_study ,
+  .recent-work {
     width: 100%;
     align-content: center;
+    overflow: hidden;
   }
 
   .menu {
@@ -786,12 +788,18 @@ margin-bottom: 62px;
     margin: 20px;
   }
 
+  .principal_description p{
+    margin-left: 40px;
+  }
+
   .principal_description h1 {
     font-size: 40px;
+    margin-left: 40px;
   }
 
   .principal_description a {
     margin: 20px auto;
+    margin-left: 200px;
   }
 
   .alliances_logos a {
